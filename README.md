@@ -1,7 +1,7 @@
 # Apresentação
 ## Sobre mim
 
-![Imagem do dev](https://cldup.com/dTxpPi9lDf.thumb.png)
+![Imagem do dev](./Sprint1/evidencias/Dev_renan.png)
 
 Olá, eu sou Renan Moura Evangelista me localizo em Mogi das Cruzes, São Paulo, estou cursando Engenharia da Computação na Univesp - Universidade Virtual do Estado de São Paulo, no semestre 5 e cursando uma matéria no 6 semestre.
 
