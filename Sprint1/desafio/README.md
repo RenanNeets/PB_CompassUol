@@ -30,8 +30,8 @@ _Foto do arquivo txt resolvando o desafio_
 ### Meio
 Na metade da resolução do desafio me deparei com o problema de realizar o funcionamento do programa com um agendamento. E o problema era programar a realização do _crontab -e_ no horário específico, mas mesmo colocando ele para rodar, ele rodou com atraso de menos de 15 segundos, mas todos os resultados do programa foram entreque na mesma hora, minuto e segundo, com diferença de exatos 1 ou 2 segundo em certos arquivos mas todos na média de 45 segundos.
 _Foto do crontab e do resultado_
-![Imagem do crontab](../evidencias/imagemCrontab.png)
-![Imagem do resultado](../evidencias/resultado.png)
+![ ](../evidencias/imagemCrontab.png)
+![ ](../evidencias/resultado.png)
 Outro problema apresentado no decorrer do tempo, foi a contagem dos itens únicos da lista de produdos vendidos, nos dois primeiros dias segui uma lógica de caracterizar a contagem diferente na do dias restantes, essa segunda análise na lógica do programa se deu graças a turma relatando o resultado de seus programas e a minha checagem de última hora no código já escrito e rodando nos três primeiros dias.
 O problema da contagem de itens únicos foi por uma seleção diferente na hora de contar os itens, a que foi usado nos primeiros dias tinha o erro de usar a categoria "quantidade" e começar na linha 11 a leitura, mas tendo que usar a categoria "id" e não definir linha, para assim realmente contar quantos produtos tinham sido vendidos.
 _Foto do código errado_
