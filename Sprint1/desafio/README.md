@@ -25,7 +25,7 @@ Realizado a execução do programa, ele te entregará um relatório final com a 
 Começei a realizar o desafio, lendo a propósta dele e tentando divir ele em partes e resolver ele aos poucos. Teve momentos em que criei dúvidas sobre como realizar certa propósta do desafio, mas resolvi minhas dúvidas questionando ela para minha monitora e colegas da turma, e tentando resolver ele isoladamente sem a necessidade de envolver partes anteriores do código.
 Isso tudo fez com que eu conseguisse entender melhor o desafio e resolver ele.
 _Foto do arquivo txt resolvando o desafio_
-![Imagem da resolução do desafio](./evidencias/resolucaoDireta.png)
+![Imagem da resolução do desafio](../evidencias/resolucaoDireta.png)
 [Resolução do Desafio](../evidencias/ResoluçãoDireta.txt)
 ### Meio
 Na metade da resolução do desafio me deparei com o problema de realizar o funcionamento do programa com um agendamento. E o problema era programar a realização do _crontab -e_ no horário específico, mas mesmo colocando ele para rodar, ele rodou com atraso de menos de 15 segundos, mas todos os resultados do programa foram entreque na mesma hora, minuto e segundo, com diferença de exatos 1 ou 2 segundo em certos arquivos mas todos na média de 45 segundos.
