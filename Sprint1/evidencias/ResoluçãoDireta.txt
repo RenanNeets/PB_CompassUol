@@ -1,0 +1,54 @@
+· Cria um diretório chamado vendas e copia o arquivo dados_de_vendas.csv para dentro dele.
+
+mkdir vendas
+cp dados_de_vendas.csv vendas
+
+· Dentro do diretório vendas, cria um subdiretório chamado backup e faça uma cópia do arquivo
+dados_de_vendas.csv para dentro dele com a data de execução como parte do nome do arquivo no padrão
+yyyymmdd precedido de hifen. Por exemplo: dados-20230831. csv
+
+data=$(date "+%Y%m%d")
+mv dados_de_vendas.csv dados-$data.csv
+mkdir backup
+cp dados-$data.csv backup
+
+· Dentro do diretório backup, renomeie o arquivo dados -< yyyymmdd> . csv para backup-dados -< yyyymmdd> . csv
+cd backup
+
+mv dados-$data.csv backup-dados-$data
+
+Dentro do diretório backup, crie um arquivo chamado relatorio.txt que contenha as seguintes informações:
+touch relatorio.txt
+	• Data do sistema operacional em formato YYYY/MM/DD HH:MI.
+	
+	date "+%Y/%m/%d %H:%M" > relatorio.txt
+
+	• Data do primeiro registro de venda contido no arquivo.
+	
+	awk -F',' 'NR==2 {print $5}' *.csv >> relatorio.txt
+	
+	• Data do ultimo registro de venda contido no arquivo.
+	
+	awk -F',' 'NR==11 {print $5}' *.csv >> relatorio.txt
+	
+	• A quantidade total de itens diferentes vendidos.
+	
+	awk -F',' 'NR==11 {print $3}' *.csv | sort | uniq | wc -l >> relatorio.txt
+	
+	• Dentro do diretório backup, mostre as primeiras 10 linhas do arquivo backup-dados-<yyyymmdd>.csv e as
+	inclua no arquivo relatorio.txt
+	
+	head -n 11 *.csv >> relatorio.txt
+
+Para redução de espaço em disco, comprima o arquivo backup-dados-<yyyymmdd>.csv para arquivo backup-
+dados-<yyyymmdd>.zip
+
+zip backup-dados-$data.zip *.csv
+
+• Apague o arquivo o arquivo backup-dados-<yyyymmdd>.csv do diretório backup e o arquivo dados_de_vendas.csv
+do diretório vendas.
+
+rm *.csv 
+cd ..
+rm *.csv
+
