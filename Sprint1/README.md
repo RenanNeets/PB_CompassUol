@@ -9,7 +9,7 @@ Nesta sprint o foco foi em cursos proporcionados pela Udemy, sem ter envolviment
 ### Desafio
 Comecei o desafio lendo a proposta e dividindo-a em partes para resolver aos poucos. Tive dúvidas em alguns momentos, mas resolvi consultando minha monitora e colegas, o que me ajudou a entender melhor o desafio. Na metade da resolução, enfrentei o problema de configurar o crontab -e para rodar no horário específico. Apesar de um atraso de cerca de 15 segundos, os resultados foram entregues com uma diferença média de 45 segundos. Outro obstáculo foi a contagem de itens únicos na lista de produtos vendidos; inicialmente contei pela "quantidade" a partir da linha 11, mas percebi, com ajuda dos colegas, que deveria contar pelo "id" sem restrição de linha para obter um resultado correto. No último dia de execução, o programa rodou como esperado, gerando o arquivo final sem problemas.
 ### Evidências
-Os resultados que eu obtive com a execução do código foi resultado de uma série de erros, problemas técnicos e ajustes diários. Tudo para que eu consiga realizar o programa exatamente na hora solicitada e obter o resultado desejado.
+Os resultados que obtive nas tentativas de solucionar o desafio, foi guardado na pasta *resultado* dentro da pasta *evidências*, constando os diretórios criados pela execução, os relatórios que foram gerados e os arquivos de salvamento zipados pelo próprio programa. Mas também, consta na pasta *evidências*, imagens usadas no *readme* do diretório *desafio*, e um arquivo de extensão txt que consta a minha primeira tentativa de entender o desafio.
 
 ### Exercícios
 Nesta sprint não se teve lista de exercícios para ser realizada, isso proporcionou um foco direto em resolver o desafio solicitado

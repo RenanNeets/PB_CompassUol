@@ -1,0 +1,15 @@
+2024/10/24 15:26
+01/03/2023"
+31/03/2023"
+0
+"id,produto,quantidade,preco,data"
+"1,encordoamento para guitarra,12,39.00,01/03/2023"
+"2,violao acustico,4,299.00,02/03/2023"
+"3,capa para violao,5,99.00,03/03/2023"
+"4,banqueta para violao,6,69.00,04/03/2023"
+"5,limpador de cordas,8,29.00,05/03/2023"
+"6,flauta transversal,2,1999.00,06/03/2023"
+"7,suporte para flauta,4,79.00,07/03/2023"
+"8,estojo para flauta,10,9999,08/03/2023"
+"9,fone de ouvido,5,80.00,09/03/2023"
+"10,saxofone,4,4359.00,10/03/2023"
