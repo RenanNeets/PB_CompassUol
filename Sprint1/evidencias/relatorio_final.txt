@@ -1,0 +1,60 @@
+2024/10/23 15:26
+1/02/2023"
+31/01/2023"
+13
+"id,produto,quantidade,preco,data"
+"1,amplificador de guitarra,4,799.00,1/02/2023"
+"2,pedaleira preta,5,499.00,2/02/2023"
+"3,cabo para instrumento ninja,10,59.00,3/02/2023"
+"4,palheta dunlop,20,1.00,4/02/2023"
+"5,afinador digital,6,49.00,5/02/2023"
+"6,capotraste,8,99.00,6/02/2023"
+"7,suporte para guitarra,7,29.00,7/02/2023"
+"8,correia para guitarra,9,19.00,8/02/2023"
+"9,encordoamento para guitarra,12,39.00,9/02/2023"
+"10,violao acustico,4,299.00,10/02/2023"
+2024/10/24 15:26
+01/03/2023"
+31/03/2023"
+0
+"id,produto,quantidade,preco,data"
+"1,encordoamento para guitarra,12,39.00,01/03/2023"
+"2,violao acustico,4,299.00,02/03/2023"
+"3,capa para violao,5,99.00,03/03/2023"
+"4,banqueta para violao,6,69.00,04/03/2023"
+"5,limpador de cordas,8,29.00,05/03/2023"
+"6,flauta transversal,2,1999.00,06/03/2023"
+"7,suporte para flauta,4,79.00,07/03/2023"
+"8,estojo para flauta,10,9999,08/03/2023"
+"9,fone de ouvido,5,80.00,09/03/2023"
+"10,saxofone,4,4359.00,10/03/2023"
+2024/10/25 15:26
+01/04/2023"
+30/04/2023"
+31
+"id,produto,quantidade,preco,data"
+"1,sapato,3,100.00,01/04/2023"
+"2,meia,20,5.00,02/04/2023"
+"3,cinto,8,15.00,03/04/2023"
+"4,camisa,7,40.00,04/04/2023"
+"5,bermuda,6,50.00,05/04/2023"
+"6,tenis,4,120.00,06/04/2023"
+"7,palheta dunlop,20,1.00,07/04/2023"
+"8,estojo para flauta,2,29,08/04/2023"
+"9,fone de ouvido,7,200.00,09/04/2023"
+"10,saxofone,3,4000.00,10/04/2023"
+2024/10/26 15:26
+01/01/2023
+31/01/2023
+67
+id,produto,quantidade,preço,data
+1,camiseta,2,29.90,01/01/2023
+2,calça,5,80.00,02/01/2023
+3,sapato,3,100.00,03/01/2023
+4,meia,20,5.00,04/01/2023
+5,cinto,8,15.00,05/01/2023
+6,camisa,7,40.00,06/01/2023
+7,bermuda,6,50.00,07/01/2023
+8,tênis,4,120.00,08/01/2023
+9,bone,12,10.00,09/01/2023
+10,casaco,2,150.00,10/01/2023

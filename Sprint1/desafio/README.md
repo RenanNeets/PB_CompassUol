@@ -1,4 +1,3 @@
-
 # Desafio
 ### Passo a passo
 Para começar a rodar o código do desafio tem que realizar os preparativos apontados nos slides disponíveis.
@@ -10,6 +9,8 @@ Assim para rodar o código *processamento_de_vendas.sh*,  segue a segunte ordem:
 - Para rodar o arquivo *processamento_de_vendas.sh* com o comando *bash processamento_de_vendas.sh* no terminal da pasta *ecommerce*.
 
 Realizando estes passos, atenderá aos preparativos propostos na apresentação do desafio e poderá efetuar o funicionamento do programa e gerar as pastas solicitadas, junto com a transferencia, renomeação e zipagem do arquivo *dados_de_vendas.csv* e obter um relatorio com as caracteristicas necessárias.
+Resultado do código aqui.
+[Resultado do processamento de vendas](../evidencias/resultado/)
  
 ![Imagem do primeiro códogo](../evidencias/primeiroCodigo.png)
 
@@ -19,6 +20,8 @@ Assim que tiver dois relatórios feitos, poderá rodado o arquivo *processamento
 - Pode rodar o arquivo *consolidador_processamento_de_vendas.sh* com o comando *bash consolidador_processamento_de_vendas.sh* no terminal da pasta *ecommerce*.
 
 Realizado a execução do programa, ele te entregará um relatório final com a junção dos relatórios feitos pelo arquivo *processamento_de_vendas.sh*.
+Resultado do código aqui.
+[Resultado Consolidador de processamento](../evidencias/relatorio_final.txt)
   
 ![Imagem do segundo códogo](../evidencias/segundoCodigo.png)
  
