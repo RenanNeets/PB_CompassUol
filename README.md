@@ -9,12 +9,5 @@ Até o momento não tive nenhuma experiência de trabalho, tenho conhecimento em
 
 ## Sprints
 
-- [Sprint 1](./Sprint1)
-- [Sprint 2]()
-- [Sprint 3]()
-- [Sprint 4]()
-- [Sprint 5]()
-- [Sprint 6]()
-- [Sprint 7]()
-- [Sprint 9]()
-- [Sprint 10]()
+- [Sprint 1](./Sprint1/)
+- [Sprint 2](./Sprint2/)
