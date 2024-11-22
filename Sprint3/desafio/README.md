@@ -2,6 +2,7 @@
 ## Importando e normalizando dados
 ##### Importando bibliotecas e arquivo
 Para iniciar o desafio, tive que instalar as bibliotecas Pandas e Matplotlib, além de executar o código no Python 3.12.7. Nesta parte, além de importar as bibliotecas também já aproveitei em criar o *dataset* que será usado para resolver o desafio.
+
 ![Imagem Ambiente](../evidencias/importBibliotecas.png)
 
 ##### Normalizando os dados
