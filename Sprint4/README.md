@@ -1,4 +1,4 @@
-# Sprint 3
+# Sprint 4
 ### Informações
 Nessa sprint o foco foi em aprender Docker e começar o aprendizado do básico da AWS, além de realizar a lista de exercícios. No estudo do Docker a maior dificuldade foi em conseguir instalar e realizar os comandos no terminal, no curso da AWS não tive muita dificuldade em aprender as noções básicas, e na realização dos exercícios nenhum se mostrou muito difícil. Na realização do desafio o problema maior foi em instalar o docker, mas com recomendação de um colega de turma, consegui achar um local onde o docker consegue rodar com tranquilidade, e assim realizar o desafio com sucesso.
 
