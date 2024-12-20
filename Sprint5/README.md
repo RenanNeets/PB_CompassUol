@@ -20,7 +20,7 @@ https://www.credly.com/badges/fcd86be4-fd53-4056-927f-81fd318a97ac/public_url
 O desafio começou com a escolha de um conjunto de dados e a  instalação da biblioteca *boto3* para mandar dados para AWS pelos scripts em Python. O primeiro script foi configurado credenciais, criou um bucket na AWS e realizou o upload do arquivo CSV. No segundo script, foi feito o download do arquivo do bucket, seguido de sua normalização para resolver provlemas de encoding e ajustar as colunas. Após isso, os dados normalizados foram enviados de volta ao bucket, Na etapa de análise, o script utilizou o Pandas para manipular o CSV, transformando valores e implementando filtros e agregações para atender critérios específicos. A análise gerou novos dados que foram salvos em outro CSV e enviados novamente ao bucket, finalizando o desafio com sucesso.
 
 
-- [Exercício Python](./desafio/)
+- [Desafio](./desafio/)
 
 ### Evidências
 O resultado que obitive realizando o desafio, sendo criando os sripts necessários e os resultados das ações dele. Tudo em forma de imagenm para ser usado no *readme* do diretório *desafio*.
