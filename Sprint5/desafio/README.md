@@ -89,10 +89,10 @@ E o sub-tópico 4.6 foi uma simples função de String tranformando o texto das 
 Termando a normalização e a análise dos dados, poderia fazer o upload dele para o bucket e finalizando o script, nomeando ele no bucket como *dados-analisados*.
 
 
-![Imagem Upload Dados Nomalizados Código](../evidencias/uploadDadosAnalisadosCodigo.png)
+![Imagem Upload Dados Analisados Código](../evidencias/uploadDadosAnalisadosCodigo.png)
 
 
-![Imagem Upload Dados Nomalizados](../evidencias/uploadDadosNomalizados.png)
+![Imagem Upload Dados Analisados](../evidencias/uploadDadosAnalisados.png)
 
 
 Assim finalizando o desafio da sprint 5.
