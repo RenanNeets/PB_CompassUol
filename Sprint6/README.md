@@ -1,4 +1,4 @@
-# Sprint 5
+# Sprint 6
 ### Informações
 Nessa sprint o foco foi continuar a usar o console da AWS, e se preparar para o desafio final, do programa de bolsas. A sprint começou com cursos da AWS que informava como era a análise na AWS, e depois seguido por cursos que mostran o início de funcionamento de certos serviços da AWS, como Athena, Glue, EMR, Redshift e QuickSight. Todos cursos que contam um pouco como eles funciam e como usar, tudo apresentado de uma forma de fácil entendimento e sem muita dúvida. 
 
