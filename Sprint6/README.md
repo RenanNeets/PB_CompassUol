@@ -38,9 +38,7 @@ O resultado que obitive realizando o desafio, sendo criando os sripts necessári
 ### Exercícios
 Nesta sprint os exercícios se dividirão em 3, todos sendo da AWS, só que com serviços diferentes. O primeiro exercício é usando o serviço S3, o segundo Athena e o terceiro Lambda.
 
-
 Na resolução dos exercícios começou com desconsiderar o que envolvia o serviço S3, já que ele já foi realizado na sprint 5. Fazendo com que o próximo exercício a ser feito era com o serviço da AWS Athena, e na pasta de exercício sendo dividida em 2 sub-pastas.
-
 
 ##### AWS Athena
 
