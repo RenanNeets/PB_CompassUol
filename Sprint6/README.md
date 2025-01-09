@@ -26,6 +26,8 @@ Nesta sprint só foi feito cursos da AWS baseados em serviços de Data & Analyti
 
 - [AWS Skill Builder Serverless Analytics (Portuguese)](./certificados/AWS_Skill_Builder_Serverless_Analytics_(Portuguese).pdf)
 
+- [AWS Skill Builder Best Practices Data Warehousing Amazon Redshift](./certificados/AWS_Skill_Builder_Best_Practices_Data_Warehousing_Amazon_Redshift.pdf)
+
 ### Desafio
 O desafio dessa sprint se baseia na primeira entrega do *Desafio "Filmes e Séries"*, um desafio que consiste na construção de um Data Lake com etapas de ingestão, armazenamento, processamento e consumo de dados. Antes de iniciar a primeira entrega, foi necessário explorar os arquivos CSV de filmes e séries para criar análises baseadas em perguntas que poderiam evoluir conforme o aprendizado. 
 
