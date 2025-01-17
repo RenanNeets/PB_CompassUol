@@ -15,3 +15,5 @@ Até o momento não tive nenhuma experiência de trabalho, tenho conhecimento em
 - [Sprint 4](./Sprint4/)
 - [Sprint 5](./Sprint5/)
 - [Sprint 6](./Sprint6/)
+- [Sprint 7](./Sprint7/)
+
