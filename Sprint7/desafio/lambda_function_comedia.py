@@ -19,6 +19,8 @@ def lambda_handler(event, context):
         rows = []
         csv_reader = csv.DictReader(csv_content.splitlines())
         for row in csv_reader:
+            if len(rows) >= 100:
+                break 
             imdb_id = row.get("id", "N/A")
             titulo_original = row.get("tituloOriginal", "N/A")
             nota_media = float(row.get("notaMedia", 0.0))
