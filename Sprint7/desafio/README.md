@@ -84,14 +84,29 @@ Antes de rodar a função Lambda, teria que arrumar a configuração dela para q
 ![Imagem Lambda Config](../evidencias/LambdaConfig.png)
 
 
-No código da função ele foi feito em 2 funções, uma que estária o código para usar a API TMDB e criar o aarquivo JSON, e a outra função mandaria esse arquivo JSON para o bucket *renan-desafio-filmes-series-2024* da AWS S3.
+Nessa parte do desafio, decidi fazer ele de diferente, com 2 arquivos python, um que usaria os dados do arquivo CSV e completraria as informações com a API, e outro que teria a mesma informação que está no CSV, só que com mais séries que atinge até a atualidade.
+
+Nesse código é feito com base no arquivo CSV e completa as informações dele com a da API. Ele começa puxando a informação do arquivo CSV no bucket do desafio e depois complementa com novas informações vinda da API, logo depois, quando vai separar as informações coletada para o registro, ele já separa por meio do genêro comédia e no periodo 1980 até 2000, já que esses dados estáriam no arquivo CSV e não precisaria trazer da API.
+
+
+![Imagem Comédia Codigo parte 1](../evidencias/ComediaCodigo.png)
+
+
+![Imagem Comédia Codigo parte 2](../evidencias/ComediaCodigo2.png)
+
+
+![Imagem Comédia Codigo parte 3](../evidencias/ComediaCodigo3.png)
+
+
+
+Nesse código é feito usando a API do TMDB, por ter dados que vem até os dias atuais, para trazer os dados, mas com o genêro de comédia e com data de estreia apartir de 2001 até atuais. Indo para o código, ele foi feito em 2 funções.
 
 Na primeira função do código no Lambda, ele é feito em: Guardar a chave da API, URL básica, e URL's extras que iriram pegar informações que serviriam como complemento da URL básica, e criar o arquivo JSON com os 100 registros organizados.
 
-Indo para os pontos importântes dessa primeira função é, a URL básica, que tinha que condizer com o tema da minha análise,que se baseava em séries e dubladores brasileiras, a melhor forma que consegui pensar em fazer isso foi primeiro fazer a url mesmo, depois colocar a minha chave API, junto já separando por lingua português brasileiro e ordenar pela populariedade de forma descrecente, do maior para o menor, depois é separar pelo país e a categoria comédia, e no fim dele separar o período que segue a análise, de 1980 até 2000.
+Indo para os pontos importântes dessa primeira função é, a URL básica, que tinha que condizer com o tema da minha análise,que se baseava em séries e dubladores brasileiras, a melhor forma que consegui pensar em fazer isso foi primeiro fazer a url mesmo, depois colocar a minha chave API, junto já separando por lingua português brasileiro e ordenar pela populariedade de forma descrecente, do maior para o menor, depois é separar pelo país e a categoria animação, e no período que segue a análise,2001 até atuais.
 
 
-![Imagem Lambda Codigo parte 1](../evidencias/LambdaCodigo.png)
+![Imagem Animação Codigo parte 1](../evidencias/AnimacaoCodigo.png)
 
 
 Segundo ponto a ser apontado é as outras 2 URL's que criei no código, elas foram criadas pra fortalecer a url básica, já que fui orientado que nas próximas sprint poderia mudar a minha análise, e decidi trazer o máximo de informação que conseguia da API para não precisar refazer ela em busca de mais informação, e o ID do __IMDB__, que vai ser útil para próxima sprint.
@@ -99,10 +114,10 @@ Segundo ponto a ser apontado é as outras 2 URL's que criei no código, elas for
 Terceiro ponto, foi a criação do arquivo JSON, ele teria que ter no máximo 100 registros, então teria que navegar em mais de 1 página da URL, por isso coloquei o *loop for*, depois for fazer ele depois de usar as url's, e foi aqui onde mais tive dúvida por ter que mudar com relação a *extra_url*, por ser uma url que traria conteúdo que não faz parte da minha análise agora, mas que nas próximas sprints fará parte.
 
 
-![Imagem Lambda Codigo parte 2](../evidencias/LambdaCodigo2.png)
+![Imagem Animação Codigo parte 2](../evidencias/AnimacaoCodigo2.png)
 
 
-![Imagem Lambda Codigo parte 3](../evidencias/LambdaCodigo3.png)
+![Imagem Animação Codigo parte 3](../evidencias/AnimacaoCodigo3.png)
 
 
 Com o termino da primeira função do código, a segunda foi só baseada em mandar o arquivo JSON para o bucket com os diretórios certos.
@@ -110,7 +125,7 @@ Com o termino da primeira função do código, a segunda foi só baseada em mand
 A única dificuldade nessa função, é que não conseguia mandar o arquivo JSON para o bucket, mas foi resolvido com uma lógica usada em sprint anterior. A lógica que me foi usada como base, se baseia em ler um arquivo csv, escrever ele em txt e depois transformar esse arquivo txt em csv de novo, a única diferença que tive foi 
 
 
-![Imagem Lambda Codigo parte 4](../evidencias/LambdaCodigo4.png)
+![Imagem Animação Codigo parte 4](../evidencias/AnimacaoCodigo4.png)
 
 
 Depois de fazer o código, só foi necessário arrumar a politic do IAM do Lambda para conseguir fazer o upload no bucket.
