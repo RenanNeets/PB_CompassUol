@@ -5,8 +5,8 @@ import requests
 from datetime import datetime
 
 def lambda_handler(event, context):
-    bucket_name = "renan-desafio-filmes-series-2024 "
-    file_key = "s3://renan-desafio-filmes-series-2024/Raw/Local/CSV/Series/2025/01/02/series.csv"
+    bucket_name = "renan-desafio-filmes-series-2024"
+    file_key = "Raw/Local/CSV/Series/2025/01/02/series.csv"
 
     tmdb_api_key = "CHAVE AQUIII"
 
@@ -35,7 +35,7 @@ def lambda_handler(event, context):
                 data_estreia_date = datetime.strptime(data_estreia, "%Y-%m-%d")
             else:
                 continue
-            if "comedy" in genero.lower() and data_estreia_date >= datetime(2001, 1, 1):
+            if "comedy" in genero.lower() and datetime(1980, 1, 1) <= data_estreia_date <= datetime(2000, 12, 31):
                 rows.append({
                     "IMDB ID": imdb_id,
                     "Título": titulo_original,
