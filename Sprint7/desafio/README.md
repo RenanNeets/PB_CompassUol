@@ -78,7 +78,7 @@ Com ela criada só era necessário importar na função.
 
 ![Imagem Lambda Layers](../evidencias/LambdaLayers.png)
 
-Antes de rodar a função Lambda, teria que arrumar a configuração dela para que conseguisse executar sem dar erro de *TimeOut*.
+Antes de rodar a função Lambda, teria que arrumar a configuração dela para que conseguisse executar sem dar erro de *TimeOut*, ou *RunTime*.
 
 
 ![Imagem Lambda Config](../evidencias/LambdaConfig.png)
