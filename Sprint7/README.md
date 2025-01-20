@@ -22,6 +22,9 @@ Nesta sprint os exercícios foram 3, sendo eles, um se baseando em Spark, outro 
 
 - [Spark](./exercicios/Spark/)
 
+- [Exercício de Spark Código](./exercicios/Spark/exercicioSpark.ipynb)
+
+
 No exercício do Spark, para resolver ele teria que começar no terminal e usando o docker. Indo para o terminal e colocando o comando docker para puxar uma imagem já existendo que se baseava no jupyer notebook, onde seria executado pelo conteiner.
 
 
@@ -75,6 +78,9 @@ Nesse exercício, ele se baseou em conseguir a chave da API Tmdb para usala no d
 
 ##### AWS GLUE
 - [AWS GLUE](./exercicios/Glue/)
+
+- [Exercício de Glue Código](./exercicios/Glue/exercicioglue.py)
+
 
 Nesse exercício foi onde demorei para resolve-lo tudo graça a complexidade de como ele é para se terminar, mas as orientações que obtive com o pdf que vinha foram muito objetivas e quando tinha dúvidas que o arquivo não respondia, tirava com o monito.
 
