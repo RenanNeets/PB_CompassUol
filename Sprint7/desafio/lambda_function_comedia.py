@@ -100,9 +100,9 @@ def save_to_s3(data):
     month = current_date.strftime('%m')
     day = current_date.strftime('%d')
 
-    series_key = f"Processed/CSV/{year}/{month}/{day}/SeriesBrasileirasAnimacao.json"
+    series_key = f"Processed/CSV/{year}/{month}/{day}/SeriesBrasileirasComedia.json"
 
-    arquivo = "/tmp/SeriesBrasileirasAnimacao.json"
+    arquivo = "/tmp/SeriesBrasileirasComedia.json"
     with open(arquivo, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
