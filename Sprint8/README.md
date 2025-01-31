@@ -5,8 +5,7 @@ Nessa sprint o foco foi em resolver os exercícios usando Spark e realizar a 3°
 Nesta sprint o foco foi em curso proporcionado pela Udemy, sem ter envolvimento com nenhum curso da AWS. Isso fez com que a pasta certificados fique vázia nessa sprint.
 
 ### Desafio
-
-
+O desafio da sprint é a continuação do Desafio Filmes e Séries, focado na construção de um Data Lake com etapas de Ingestão, Armazenamento, Processamento e Consumo. A análise abordou séries brasileiras de comédia e animação, formulando perguntas sobre sucessos, dubladores e novas produções. Na terceira entrega, o foco foi tansformar arquivos CSV e JSON da pasta RAW para o formato PARQUET usando AWS Glue e Apache Spark, armazenando-os na pasta TRUSTED do bucket *renan-desafio-filmes-series-2024*. O processo envolveu criar e configurar jobs no Glue para conversão dos arquivos e organizar a saída no S3. Após ajustes nos scripts Python, os arquivos foram processados corretamente. Para validar os dados, foram criados Crawlers no AWS Glue para catalogação e consultas no aWS Athena, garantindo a integridade e acessibilidade dos dados.
 
 - [Desafio](./desafio/)
 
