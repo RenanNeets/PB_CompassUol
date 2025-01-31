@@ -26,6 +26,8 @@ dadoJson = glueContext.create_dynamic_frame.from_options(
 )
 df = dadoJson.toDF()
 
+# Uso só para criar o parquet com o Json de séries de animação
+# Função de Incremento de valor nos ID do IMDB nulos 
 df = df.withColumn(
     "IMDB ID",
     when(col("IMDB ID").isNull(), lit(f"cod{df.select('IMDB ID').rdd.count()+1:02d}")).otherwise(col("IMDB ID"))
@@ -42,6 +44,8 @@ dia = dfDataAtual.select(date_format("data_atual", "dd").alias("dia")).collect()
 
 
 target_path = f"s3://renan-desafio-filmes-series-2024/Trusted/TMDB/Parquet/seriesAnimacao/{ano}/{mes}/{dia}"
+# # Caminho para usar na conversão do Json contendo séries de comédia
+#target_path = f"s3://renan-desafio-filmes-series-2024/Trusted/TMDB/Parquet/seriesComedia/{ano}/{mes}/{dia}"
 
 
 df.repartition(1).write.mode("overwrite") \

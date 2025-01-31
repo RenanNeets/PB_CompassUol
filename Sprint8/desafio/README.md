@@ -34,14 +34,17 @@ Quais dessas séries ainda continuam fazendo sucesso?
 
 Nessa terceira entrega do *Desafio Filmes e Séries*, ela foi focada na transformação dos arquivos que estão na pasta *Raw* do bucket, os arquivos CSV e JSON, para o formato PARQUET, isso tudo seria feito no AWS Glue, sendo armazenados numa nova pasta no bucket *renan-desafio-filmes-series-2024* chamada *Trusted*. Além de realizar o desafio no Glue, ele teria que ser feito usando o Apache Spark, e usar a AWS Athena para verificar os arquivos PARQUET.
 
-A organização dos arquivos python para a execução do desafio está separado em pastas, CSV e JSON, e com seus arquivos pythons em cada uma delas.
+
+__Configuração dos códigos__
+
+A organização dos arquivos python para a execução do desafio está em que cada um vai converter o arquivo original em parquet, mas porém tem que para mudar o diretório, tanto de input (estando na config do Job), quanto o de output (comentado no código), para conseguir pegar as informações certas e entregar o arquivo final no devido lugar
 
 
-- [AWS Glue para CSV](./CSV/jobCsv.py)
+- [AWS Glue para CSV](./jobCsv.py)
 
-- [AWS Glue para JSON Comédia](./JSON/jobJsonComedia.py)
+- [AWS Glue para JSON Comédia](./jobJson.py)
 
-- [AWS Glue para JSON Animação](./JSON/jobJsonAnimacao.py)
+__Começo do desafio__
 
 Comecando a criar a terceira entrega do desafio final, ele começa criando um Job no Glue, com as configuranções usadas no antigo exercício Glue, feito em sprint anterior, além das configurações que as próprias orientações do desafio mandou.
 
@@ -118,7 +121,7 @@ E ainda, criando o diretório certo no bucket.
 ![Imagem ](../evidencias/BucketPastaMoviesParquet.png)
 
 
-Com o fim do arquivo python para tratar os arquivos CSV, foi a hora de tratar os arquivos JSON's que tenho, o primeiro que escolhi foi o JSON de comédia, ele só precisaria arrumar a ordem de como estava o registros e transformar em PARQUET, então não tive muita dificuldade nesse primeiro arquivo python.
+Com o fim do arquivo python para tratar os arquivos CSV, foi a hora de tratar os arquivos JSON's que tenho, o primeiro que escolhi foi o JSON de comédia, ele só precisaria arrumar a ordem de como estava o registros e transformar em PARQUET, então não tive muita dificuldade nesse arquivo python.
 
 
 ![Imagem ](../evidencias/JsonJobCodigo.png)
@@ -145,7 +148,7 @@ O caminho que escolhi para fazer esses JSON's foi em separar eles por cada séri
 ![Imagem ](../evidencias/BucketPastaComediaParquet.png)
 
 
-Com o fim do primeiro código python para os arquivos JSON's, foi fazer o segundo código, esse segundo código tive uma dificuldade em tentar colocar uma ideia no meu registro, tentar preencher os IDs do IMDB que estavam nulos, para realizar isso tive ajuda do monitor dessa sprint, o que também já me ajudou com possível problema que teria com essa ideia na próxima sprint, mas tentando colocar a ideia em pratica, estudei mais o Spark e fui tirando dúvidas que gerava com o monitor, e no fim consegui realizar uma forma de fazer essa ideia funcionar e não alterar o resto das informações do registro. E depois só foi fazer o caminho de saída do arquivo PARQUET, com a especificação de dados sendo *seriesAnimacao*.
+Com o fim da primeira vez que rodou o código python para os arquivos JSON's, foi fazer leve alteração no código, nessa alteração no código tive uma dificuldade em tentar colocar uma ideia no meu registro, tentar preencher os IDs do IMDB que estavam nulos, para realizar isso tive ajuda do monitor dessa sprint, o que também já me ajudou com possível problema que teria com essa ideia na próxima sprint, mas tentando colocar a ideia em pratica, estudei mais o Spark e fui tirando dúvidas que gerava com o monitor, e no fim consegui realizar uma forma de fazer essa ideia funcionar e não alterar o resto das informações do registro. E depois só foi fazer o caminho de saída do arquivo PARQUET, com a especificação de dados sendo *seriesAnimacao*.
 
 
 ![Imagem ](../evidencias/JobJsonAnimacaoCodigo.png)
