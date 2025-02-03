@@ -42,7 +42,7 @@ A organização dos arquivos python para a execução do desafio está em que ca
 
 - [AWS Glue para CSV](./jobCsv.py)
 
-- [AWS Glue para JSON Comédia](./jobJson.py)
+- [AWS Glue para JSON](./jobJson.py)
 
 __Começo do desafio__
 
