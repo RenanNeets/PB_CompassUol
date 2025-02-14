@@ -176,14 +176,14 @@ Na configuração do detalhe avançado, foi colocar o nome do arquivo python e d
 ![Imagem ](../evidencias/JobAdvancedDetailsGlue.png)
 
 
-Terminando a configuração do job do Glue, voltei para o bucket *renan-desafio-filmes-series-2024* do amazon S3, para pegar a url de onde está os arquivos parquet que serão usados para criar as tabelas. Aqui eu decidi usar sómente os arquivos que constam na camada *Trusted/TMDB/Parquet/*, onde só constá os arquivos parquet que trazem informação vinda da API TMDB.
+Terminando a configuração do job do Glue, voltei para o bucket *renan-desafio-filmes-series-2024* do amazon S3, para pegar a url de onde está os arquivos parquet que serão usados para criar as tabelas. Aqui eu decidi usar sómente os arquivos que constam na camada *Trusted*, onde só constá os arquivos parquet.
 
 
 
 ![Imagem ](../evidencias/UrlParquetS3.png)
 
 
-Depois de pegar esse caminho do bucket, coloquei ele como variável de ambiente como *Input_Path* e *Targuet_Path* para serem usadas no script do job. O *Input_Path* guarda o caminho da camada Trusted/TMDB/Parquet do bucket S3, e o *Targuet_Path* guarda o caminho base para o bucket *renan-desafio-filmes-series-2024*, para servir de ajuda na hora de guardar as tabelas criadas.
+Depois de pegar esse caminho do bucket, coloquei ele como variável de ambiente como *Input_Path* e *Targuet_Path* para serem usadas no script do job. O *Input_Path* guarda o caminho da camada *Trusted* do bucket S3, e o *Targuet_Path* guarda o caminho base para o bucket *renan-desafio-filmes-series-2024*, para servir de ajuda na hora de guardar as tabelas criadas.
 
 
 ![Imagem](../evidencias/JobParametersGlue.png)
@@ -202,7 +202,7 @@ No começo do código coloquei os imports que seriam úteis para criar as tabela
 
 Depois dos imports, coloquei cada váriaveis de ambiente, tanto input e target, para serem usadas no código. 
 
-Depois de colocar os caminhos em váriaveis, fui criar o dataframe contendo todo o conteúdo dos arquivos parquets da camada Trusted/TMDB. Feito isso, já renomeei o nome da coluna *Título* para um padrão mais simples, e aproveitei para ordenar todo o dataframe por ele.  Com o termino da criação e organização do dataframe, criei o primeiro dataframe que serviria para criar a primeira dimesão do modelo dimensional, a dimesão data.
+Depois de colocar os caminhos em váriaveis, fui criar o dataframe contendo todo o conteúdo dos arquivos parquets da camada Trusted. Feito isso, já renomeei o nome da coluna *Título* para um padrão mais simples, e aproveitei para ordenar todo o dataframe por ele.  Com o termino da criação e organização do dataframe, criei o primeiro dataframe que serviria para criar a primeira dimesão do modelo dimensional, a dimesão data.
 
 Para criar a dimensão data, fiz ela com uma lógica de importar a coluna *titulo* do dataframe, para ordernar a tabela em um padrão igual ao do dataframe, e depois importar a coluna *Data_de_estreia*. Com as duas colunas ajeitadas, só foi destrinchar a coluna *Data_de_estreia* em ano, mês e dia, para fácil análise da dimensão no fututo. E com o fim disso, foi criar a *data_key* da dimensão e ordenar toda a dimensão por *título*, para ajuda futura.
 
