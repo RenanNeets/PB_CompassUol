@@ -105,13 +105,13 @@ Segui essa forma de join para todas as dimensões, e selecionei as chaves PK das
 ![Imagem ](../evidencias/QSEditeModeloRelacoes6.png)
 
 
-Só que, quando fui fazer o dashboard, senti uma dificuldade em criar os gráficos da forma que precisava. E voltei para criar um novo conjunto de dados só que agora com cada join das tabelas com *Right Join*, assim arrumei todos os joins das relações.
+Só que, quando fui fazer o dashboard, senti uma dificuldade em criar os gráficos da forma que precisava. E voltei para criar um novo conjunto de dados só que agora com cada join das tabelas com *Left Join*, já que a chave exclusiva está na tabela de dimensões, assim arrumei todos os joins das relações.
 
 
 ![Imagem ](../evidencias/QSEditeModeloRelacoes.png)
 
 
-Com o termino do ajuste das relações das tabelas, ficaram todas com o tipo de junção *Right Join*.
+Com o termino do ajuste das relações das tabelas, ficaram todas com o tipo de junção *Left Join*.
 
 
 ![Imagem ](../evidencias/QSEditeModeloRelacionado.png)
