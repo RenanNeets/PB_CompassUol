@@ -138,7 +138,7 @@ Indo para o gráfico de pizza, ele aborda as séries que contem foco nos gênero
 ![Imagem ](../evidencias/DashLinha1Grafico1.png)
 
 
-Indo para o gráfico ao lado desse, seria o gráfico de rosca, ele aborda os países de produções das séries da minha análise, com 2 setores de foco, o Brasil e outros (compondo o resto de países de produção). Aui também contêm uma interação, em que mostra o *Foco de país*, em que se clicar nele foca a análise com base nesse país.
+Indo para o gráfico ao lado desse, seria o gráfico de rosca, ele aborda os países de produções das séries da minha análise, com 2 setores de foco, o Brasil e outros (compondo o resto de países de produção). Aqui também contêm uma interação, em que mostra o *Foco de país*, em que se clicar nele foca a análise com base nesse país.
 
 
 ![Imagem ](../evidencias/DashLinha1Grafico2.png)
