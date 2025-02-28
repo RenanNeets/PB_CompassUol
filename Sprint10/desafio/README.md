@@ -129,14 +129,6 @@ Indo agora criar o dashboard, escolhi a forma padrão de planilha e com o tamanh
 ![Imagem ](../evidencias/QSPlanilha.png)
 
 
-Terminando a 2° etapa, a 3° etapa se baseia na mesma lógica dela, só que agora com séries seriam no foco de gênero animação e do período de 2001 até 2025. Com essa mudança feita só foi criar os mesmos gráficos e trocar o foco de gênero e período deles, mas seguindo a mesma order e de gráfico da etapa 2.
-
-
-
-
-Assim termina o meu dashboard, seguindo a linha de primeiro apresentar os gêneros das séries e o país de produção deles, depois mostra qual é as melhores séries e quantas séries cada autor fez com foco em uma gênero específico de série e em um período específico. -->
-
-
 Na forma como esse dash será feito, tive dificuldade em apresentar os dados já que muitos dos dados só conseguiriam ser apresentados em certos gráficos e em certas condições. Mas depois de muita análise e tentativa e erro consegui criar o dashboard com foco no tema __A trajetória das animações e comédias brasileiras: dos maiores sucessos às novas gerações de séries.__
 
 Com esse foco para alcançar, fui fazer a 1° linha de gráficos do dashboard, ele se baseia em dois gráfios, um de pizza e outro em rosca, mas ambos mostram o foco do que vai ser análisado no dashboard. 
