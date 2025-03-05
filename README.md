@@ -9,15 +9,15 @@ Até o momento não tive nenhuma experiência de trabalho, tenho conhecimento em
 
 ## Sprints
 
-- [Sprint 1](./Sprint1/)
-- [Sprint 2](./Sprint2/)
-- [Sprint 3](./Sprint3/)
-- [Sprint 4](./Sprint4/)
-- [Sprint 5](./Sprint5/)
-- [Sprint 6](./Sprint6/)
-- [Sprint 7](./Sprint7/)
-- [Sprint 8](./Sprint8/)
-- [Sprint 9](./Sprint9/)
+- [Sprint 1](./Sprint01/)
+- [Sprint 2](./Sprint02/)
+- [Sprint 3](./Sprint03/)
+- [Sprint 4](./Sprint04/)
+- [Sprint 5](./Sprint05/)
+- [Sprint 6](./Sprint06/)
+- [Sprint 7](./Sprint07/)
+- [Sprint 8](./Sprint08/)
+- [Sprint 9](./Sprint09/)
 - [Sprint 10](./Sprint10/)
 
 
